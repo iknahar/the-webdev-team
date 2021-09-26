@@ -5,7 +5,40 @@
   top: 165px;
   width: 380px;
   min-height: 450px;
+  border-radius: 10px;
+}
+
+.card-shadow {
+  box-shadow: 13px 18px 27px -9px rgba(0, 97, 136, 0.13);
 }
 .display-employ {
-  min-height: 400px;
+  min-height: 500px;
+  padding: 25px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  box-shadow: 0px 4px 11px #85b6ff;
+  color: #ffffff;
+  padding: 8px 10px 8px 10px;
+  border-radius: 20px;
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+.background-color {
+  background-color: #85b6ff15;
 }

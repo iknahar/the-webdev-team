@@ -12,15 +12,15 @@ const Body = (props) => {
   }
 
   return (
-    <div className="container">
+    <div className="container pt-0">
       <div className="row d-flex flex-wrap justify-content-around">
         <div style={{ width: "960px", marginRight: "400px" }}>
           <Member eventHandler={eventHandler} members={members}></Member>
         </div>
-        <div className="bg-dark shadow summary">
-          <div className="display-employ  pt-2">
+        <div className="background-color shadow summary">
+          <div className="display-employ text-primary">
             <h3 style={{ fontFamily: "'Roboto', 'sans-serif'" }}>
-              Total Selected {selectedMembers.length} Employs
+              {selectedMembers.length} Employes Selected
             </h3>
             <h6 className="text-center text-primary">Total Cost: ${total}</h6>
             <hr />
@@ -34,7 +34,6 @@ const Body = (props) => {
               ))}
             </ul>
           </div>
-          <button className="btn mb-2 btn-primary w-100">Confirm</button>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   letter-spacing: 0.6px;
+  padding: 10px;
 }
 .App {
   text-align: center;
@@ -42,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.shadow {
+  box-shadow: 5px 7px 18px 1px rgba(18, 38, 255, 0.13);
 }
