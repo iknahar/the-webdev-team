@@ -1,0 +1,92 @@
+[
+  {
+    "id": "6150723be8013c8185ceac6e",
+    "name": "Castaneda Lowery",
+    "post": "Chief Executive Officer",
+    "img": "https://image-assignment8.netlify.app/Rectangle%201.jpg",
+    "gender": "Male",
+    "age": 22,
+    "address": "Uttara, Dhaka",
+    "salary": 34000
+  },
+  {
+    "id": "6150723be50ef9b20b7c749a",
+    "name": "Rosa George",
+    "post": "Chief Operating Officer",
+    "img": "https://image-assignment8.netlify.app/Rectangle%202.jpg",
+    "gender": "Male",
+    "age": 27,
+    "address": "Tongi, Dhaka",
+    "salary": 21000
+  },
+  {
+    "id": "6150723bc9c7e63bc6fa2de4",
+    "name": "Clarke Craft",
+    "post": "Sales representative",
+    "img": "https://image-assignment8.netlify.app/Rectangle%203.jpg",
+    "gender": "Male",
+    "age": 30,
+    "address": "Banani, Dhaka",
+    "salary": 31000
+  },
+  {
+    "id": "6150723b0c16f085adfe8312",
+    "name": "Loraine Chambers",
+    "post": "Customer representative",
+    "img": "https://image-assignment8.netlify.app/Rectangle%204.jpg",
+    "gender": "Female",
+    "age": 29,
+    "address": "Dhanmondi, Dhaka",
+    "salary": 32000
+  },
+  {
+    "id": "6150723b850b77789ccbbdce",
+    "name": "Barnes Stephenson",
+    "post": "Administrative assistant",
+    "img": "https://image-assignment8.netlify.app/Rectangle%205.jpg",
+    "gender": "Female",
+    "age": 30,
+    "address": "Uttara, Dhaka",
+    "salary": 20000
+  },
+  {
+    "id": "6150723bac177516dc007c51",
+    "name": "Padilla Villarreal",
+    "post": "Marketing specialist",
+    "img": "https://image-assignment8.netlify.app/Rectangle%206.jpg",
+    "gender": "Male",
+    "age": 40,
+    "address": "Banani, Dhaka",
+    "salary": 38000
+  },
+  {
+    "id": "6150723b660d1a545107b338",
+    "name": "Leta Griffin",
+    "post": "Human resource personnel",
+    "img": "https://image-assignment8.netlify.app/Rectangle%207.jpg",
+    "gender": "Female",
+    "age": 40,
+    "address": "South Korea",
+    "salary": 24000
+  },
+  {
+    "id": "6150723b0c23befd059d1c79",
+    "name": "Dickerson Bolton",
+    "post": "Accountant",
+    "img": "https://image-assignment8.netlify.app/Rectangle%208.jpg",
+    "gender": "Male",
+    "age": 25,
+    "address": "China",
+    "salary": 36400
+  },
+  {
+    "id": "6150723b6c19b81b3d33ed17",
+    "name": "Morse Kelly",
+    "post": "Customer representative",
+    "img": "https://image-assignment8.netlify.app/Rectangle%209.jpg",
+    "gender": "Female",
+    "age": 27,
+    "address": "Spain",
+    "salary": 26000
+  }
+]
