@@ -1,5 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BiPointer } from "react-icons/bi";
+
 
 function Member(props) {
   const { members, eventHandler } = props;
@@ -16,46 +17,7 @@ function Member(props) {
                   alt="..."
                 />
               </div>
-              <div className="mt-3 mb-2">
-                <ul className="list-unstyled d-flex m-0 justify-content-center">
-                  <li>
-                    <a href="/">
-                      <FontAwesomeIcon
-                        style={{
-                          color: "#3b5998 ",
-                          fontSize: "20px",
-                          cursor: "pointer",
-                        }}
-                        icon={["fab", "facebook-f"]}
-                      />
-                    </a>
-                  </li>
-                  <li className="mx-3">
-                    <a href="/">
-                      <FontAwesomeIcon
-                        style={{
-                          color: "#0077b5",
-                          fontSize: "20px",
-                          cursor: "pointer",
-                        }}
-                        icon={["fab", "linkedin"]}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <FontAwesomeIcon
-                        style={{
-                          color: "#00aced",
-                          fontSize: "20px",
-                          cursor: "pointer",
-                        }}
-                        icon={["fab", "twitter"]}
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <br />
               <div className="card-body mt-0 pt-0 ">
                 <h5 className="card-title text-primary">{member.name}</h5>
                 <p className="card-text mx-0 my-1">Post: {member.post}</p>
@@ -68,7 +30,7 @@ function Member(props) {
                     onClick={() => eventHandler(member)}
                     className="mb-3 btn w-100 btn-primary"
                   >
-                    Select
+                    <BiPointer /> Select
                   </button>
                 </div>
               </div>
